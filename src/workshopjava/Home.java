@@ -10,6 +10,7 @@ package workshopjava;
  */
 public class Home {
     
+    //desde este punto de la clase creamos lo que son las variables nativas de la clase Home
     public int numberPhone;
     private String rooms;
     protected String bathrooms;
@@ -17,6 +18,8 @@ public class Home {
     public String color;
     private double zise;
 
+    
+    // aprtir de este punto vamos a crear los contructores de las variables implemetadas en la clase Home
     public Home(int numberPhone, String rooms, String bathrooms, int adress, String color, double zise) {
         this.numberPhone = numberPhone;
         this.rooms = rooms;
@@ -26,6 +29,7 @@ public class Home {
         this.zise = zise;
     }
 
+    // desde este punto del codigo estamos creando todos los get y set de las variables implementadas en la clase
     public int getNumberPhone() {
         return numberPhone;
     }

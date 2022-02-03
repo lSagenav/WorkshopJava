@@ -10,12 +10,15 @@ package workshopjava;
  */
 public class GasStation {
     
+    // justo aqui iniciamos creando las variables nativas de la clase 
     public String name;
     public int size;
     private String boss;
     protected String typeOfFuel;
     private int grossPrice;
 
+    
+    // en este punto estamos creando los constructores de las variables implementadas en la case GasStation
     public GasStation(String name, int size, String boss, String typeOfFuel, int grossPrice) {
         this.name = name;
         this.size = size;
@@ -25,7 +28,7 @@ public class GasStation {
     }
     
     
-
+    // apartir de esta linea estamos creando todos los set y get de las variables que se implementaron en esta clase
     public String getName() {
         return name;
     }

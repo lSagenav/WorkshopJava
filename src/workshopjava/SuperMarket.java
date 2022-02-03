@@ -10,13 +10,16 @@ package workshopjava;
  */
 public class SuperMarket {
     
+    //en esta seccion del codigo estamos inicializando las variables nativas de la clase
     public String name;
     private String inventory;
     protected int homeemployees; 
     public int openingHours;
     public int address;
     private String warehouse;
-
+    
+    
+    // apartir esta linea iniciamos creando los constructores de las varibles de la clase implementadas
     public SuperMarket(String name, String inventory, int homeemployees, int openingHours, int address, String warehouse) {
         this.name = name;
         this.inventory = inventory;
@@ -26,6 +29,7 @@ public class SuperMarket {
         this.warehouse = warehouse;
     }
 
+    // desde este punto iniciamos creando los set y get de las variables implementadas en esta clase 
     public String getName() {
         return name;
     }

@@ -11,17 +11,20 @@ import java.util.ArrayList;
  * @author Scorpion
  */
 public class Fruit {
-
+// Variables nativas de la clase 
     public String name;
     private float averageWeight;
     public ArrayList<String>  colors = new ArrayList();
-
+    
+    
+// aqui contrui los contructores de las variables de la clase
     public Fruit(String name, float averageWeight) {
         this.name = name;
         this.averageWeight = averageWeight;
         
     }
-
+    // 
+    // en esta parte inicie los get y set de las variables de la clase 
     public String getName() {
         return name;
     }
